@@ -4,12 +4,31 @@
   justify-content: center;
   align-items: center;
   padding: 15px 0 25px 0;
-  background-color: var(--page-background);
+  background-color: var(--third-color);
+  text-align: center;
+}
+
+.footer-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-text {
+  padding: 10px 30px;
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: 400;
 }
 
 .social-networks {
+  min-width: 300px;
   padding:15px;
   display: flex;
-  justify-content: space-around;
-  background-color: var(--primary-color);
+  justify-content: space-between;
+}
+
+.network-icon {
+  color: var(--secondary-color);
 }

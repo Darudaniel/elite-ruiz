@@ -1,6 +1,6 @@
+import '../styles/components/Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
- 
 
 const Footer = () => {
   const instagram = <FontAwesomeIcon icon={faInstagram} size="4x"/>
@@ -18,6 +18,8 @@ const Footer = () => {
   // Aqui se va a poner google ads en un futuro
   return(
     <footer className="Footer">
+      <div className='footer-text-container'></div>
+        <h3 className='footer-text'>Somos expertos en publicidad digital, llevamos un año haciendo crecer la economia.</h3>
       <div className="social-networks">
         <a onClick={handleClick} className="network-icon" href="https://www.instagram.com/danielruizen/?igshid=146eqhcu1h6ok">
             {instagram}

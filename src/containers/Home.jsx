@@ -1,6 +1,7 @@
 import '../styles/containers/Home.css'
 import heroImage from '../assets/images/HeaderHomeImage.jpg'
 import Hero from '../components/Hero'
+import Services from '../components/Services'
 
 const Home = () => {
   return(
@@ -15,6 +16,9 @@ const Home = () => {
             buttonLink="/contact"
             buttonColor="dark"
           />
+      </section>
+      <section className="services-section">
+        <Services />
       </section>
     </div>
   )
