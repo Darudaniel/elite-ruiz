@@ -1,0 +1,62 @@
+.burger-menu {
+  grid-column: 6;
+}
+
+.burger-button {
+  line-height: 11px;
+  text-align: center;
+  padding: 5px 5px;
+  margin-left: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0;
+  min-width: 50px;
+  min-height: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 3px 3px 7px 0px #041d1d;
+}
+.burger-button:defined {
+  box-shadow: 3px 3px 7px 0px black;
+}
+
+.burger-button::after {
+  position: absolute;
+  bottom: calc(100% - 28px);
+  right: calc(100% - 81px);
+  font-size: 1.4rem;
+  display: none;
+}
+
+.item-menu-button {
+  width: 100%;
+  display: block;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 800;
+  color: rgb(51, 49, 49);
+}
+
+.dropdown-menu {
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  box-shadow: 1px 1px 100px 60px var(--primary-color);
+}
+
+.dropdown-item {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: (var(--primary-color));
+}
+.dropdown-item:hover {
+  background-color: var(--primary-color);
+}
+
+.item-list{
+  list-style: none;
+}

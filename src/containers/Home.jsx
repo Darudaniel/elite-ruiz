@@ -1,0 +1,23 @@
+import '../styles/containers/Home.css'
+import heroImage from '../assets/images/HeaderHomeImage.jpg'
+import Hero from '../components/Hero'
+
+const Home = () => {
+  return(
+    <div className="Home">
+      <section className="home-container">
+        <Hero 
+            image={heroImage} 
+            alt="Foto de mujer investigando un planeta virtual" 
+            title="Si estas aqui es porque eres diferente al resto."
+            subtitle="Consigue ahora mismo consultoría gratis para tu negocio." 
+            buttonTitle="Obtener consultoría" 
+            buttonLink="/contact"
+            buttonColor="dark"
+          />
+      </section>
+    </div>
+  )
+}
+
+export default Home

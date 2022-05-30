@@ -1,8 +1,32 @@
-# Getting Started with Create React App
+# ELITE RUIZ WEB PROJECT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Elite Ruiz es una empresa creada para mejorar la economia latinoamericana partiendo de la idea de que las empresas son las potenciadoras de la misma. 
 
-## Available Scripts
+En latinoamerica abunda el talento y las oportuidades, pero la comunicacion entre estos dos no es para nada bueno, esto debido a que en los paises en vias de desarrollo como los de nuestro querido continente latinoamericano, suelen estar atrasados en soluciones tecnologicas y educativas.
+
+Daniel Ruiz el fundador de la empresa es un medico en formacion colombiano. Que cree firmemente en el potencial que tiene latinoamerica en talento humano.
+
+"En regiones de la india la vida de muchas familias ha cambiado para siempre gracias a la oleada tecnologica. Que consiste en que un miembro usualmente joven de la familia entra en la industria de la tecnologia y logra trabajar para clientes extranjeros.
+
+Esto trae muchos beneficios economicos ya que en paises extranjeros usualmente los pagos son mucho mejores y las condiciones laborales son bien reguladas.
+
+Eso mismo puede pasar en latinoamerica en los siguientes años ya que si algo distingue a nuestros paises es la creatividad y el entretenimiento y esas dos cosas son sumamente valiosas en la industria de la tecnologia."
+
+Esta web es una muestra de que se pueden crear cosas increibles gracias a la constancia y al amor por el aprendizaje.
+
+El objetivo es que sea un hub de proyectos interesantes al rededor de la marca Elite Ruiz.
+
+Dejanos un like si quisieras saber mas acerca del proyecto y sus diferentes fases.
+
+Tambien puedes seguirnos en Instagram y en tik tok como @elite.ruiz
+O en Twitter @eliteruizdotcom
+o en Facebook Elite Ruiz
+
+## Thanks to
+
+Platzi for all the knolegement about this beautiful industry.
+
+And to React because this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
