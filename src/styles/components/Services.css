@@ -1,4 +1,7 @@
-.cards-carousel {
-  display: flex;
-  justify-content: center;
+.Services {
+  padding: 10px 0;
+}
+
+.cards-container--slider {
+  width: 100vw;
 }

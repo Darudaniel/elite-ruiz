@@ -1,3 +1,5 @@
  .layout-content-container {
-   padding-top: 100px;
+   padding-top: 85px;
+   height: 100%;
+   margin: 0 auto;
  }

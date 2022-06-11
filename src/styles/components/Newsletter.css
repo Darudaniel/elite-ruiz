@@ -1,0 +1,6 @@
+.Newsletter {
+  width: 100vw;
+  background-color: var(--third-color);
+  padding: 20px;
+  padding-bottom: 2px;
+}

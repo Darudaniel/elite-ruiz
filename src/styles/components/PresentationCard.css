@@ -1,0 +1,47 @@
+.PresentationCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 30px 0;
+  margin-top: 60px;
+  padding: 10px 20px;
+  background-color: var(--just-white);
+  scroll-snap-align: center;
+  min-width: 190px;
+  max-width: 300px;
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.portait-container {
+  height: 40px;
+}
+
+.portait {
+  width: 100px;
+  position: relative;
+  top: -60px;
+}
+
+.caption {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.phone {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.mail {
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}

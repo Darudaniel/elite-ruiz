@@ -3,7 +3,14 @@
   justify-content: center;
 }
 
-.title {
-  margin: 20px;
-  font-weight: bolder;
+.title, .title-white, .title-black {
+  width: 88vw;
+  margin: 25px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+.title-white {
+  color: var(--just-white);
 }

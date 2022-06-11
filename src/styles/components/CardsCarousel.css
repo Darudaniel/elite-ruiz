@@ -1,0 +1,9 @@
+.cards-carousel {
+  width: 100vw;
+  padding-bottom: 30px;
+  display: flex;  
+  height: 100%;
+  overflow-x: scroll;
+  overscroll-behavior: contain;
+  scroll-snap-type: x proximity;
+}

@@ -1,17 +1,14 @@
 .Header {
-  /* width: 100%; */
+  z-index: 1;
   width: 100vw;
   display: flex;
-  /* display: grid; */
-  /* gap: 10px; */
-  /* grid-template-columns: repeat(6, 1fr); */
-  /* grid-auto-rows: minmax(100px, auto); */
   align-items: center;
   justify-content: space-between;
   background-color: var(--secondary-color);
   padding: 0 15px;
   position: fixed;
 }
+
 .logo-container {
   grid-column: 1;
   justify-self: right;
@@ -21,15 +18,4 @@
 
 .logo-image {
   width: 150px;
-}
-
-.title-container {
-  grid-column: 2 / 4;
-  display: flex;
-  justify-self: left;
-  color: rgb(33,37,41);
-}
-.title-container h2 {
-  font-size: 2.4rem;
-  font-weight: 400;
 }

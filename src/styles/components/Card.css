@@ -1,0 +1,21 @@
+.Card {
+  width: 70%;
+  margin: 10px;
+  background-color: var(--just-white);
+  padding: 10px 20px;
+  scroll-snap-align: center;
+  min-width: 190px;
+  max-width: 300px;
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Card-button {
+  background-color: var(--secondary-color);
+  padding: 3px 5px;
+  margin: 10px 0;
+  border: none;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+}
