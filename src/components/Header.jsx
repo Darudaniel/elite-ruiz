@@ -1,6 +1,6 @@
 import '../styles/components/Header.css'
 import { Link } from 'react-router-dom'
-import BurgerMenu from './BurgerMenu'
+// import BurgerMenu from './BurgerMenu'
 
 const Header = ({ image }) => {
   return(
@@ -8,7 +8,7 @@ const Header = ({ image }) => {
       <Link to="/home" className="logo-container">
         <img className="logo-image" src={image} alt="Banner de la marca" />
       </Link>
-      <BurgerMenu />
+      {/* <BurgerMenu /> */}
     </div>
   )
 }

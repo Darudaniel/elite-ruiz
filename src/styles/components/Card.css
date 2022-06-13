@@ -1,8 +1,14 @@
 .Card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
   width: 70%;
+  min-height: 410px;
   margin: 10px;
   background-color: var(--just-white);
   padding: 10px 20px;
+  padding-top: 0;
   scroll-snap-align: center;
   min-width: 190px;
   max-width: 300px;
@@ -10,6 +16,16 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Card-image--container {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.Card-image {
+  width: 100%;
+  min-height: 100px;
 }
 
 .Card-button {

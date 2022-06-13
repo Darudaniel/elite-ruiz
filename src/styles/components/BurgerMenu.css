@@ -31,11 +31,11 @@
 .item-menu-button {
   width: 100%;
   display: block;
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 2rem;
   margin-bottom: 10px;
   font-weight: 800;
   color: rgb(51, 49, 49);
+  line-height: 30px;
 }
 
 .dropdown-menu {
@@ -47,7 +47,6 @@
 .dropdown-item {
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid var(--secondary-color);
 }
 
 .dropdown-item.active, .dropdown-item:active {

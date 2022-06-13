@@ -2,12 +2,14 @@ import '../styles/components/BurgerMenu.css'
 import { Link } from 'react-router-dom'
 import Dropdown from 'react-bootstrap/Dropdown'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faHome } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faPhoneFlip } from '@fortawesome/free-solid-svg-icons'
+import { Icon } from '@iconify/react';
 
 
 const BurgerMenu = () => {
-  const bars = <FontAwesomeIcon icon={faBars} size="4x"/>
+  const bars = <Icon icon="bi:justify" style={{ fontSize: '4rem' }}/>
   const homeIcon = <FontAwesomeIcon icon={faHome} size="1x"/>
+  const phoneIcon = <FontAwesomeIcon icon={faPhoneFlip} size="1x" />
 
   const handleClick = () => {
     // ReactGA.event({
@@ -23,9 +25,9 @@ const BurgerMenu = () => {
       <Dropdown.Toggle className="burger-button" variant="Secondary" id="dropdown-basic">
         {bars}
       </Dropdown.Toggle>
-
       <Dropdown.Menu>
         <Dropdown.Item><Link to="/home" className="item-menu-button">{homeIcon} Inicio</Link></Dropdown.Item>
+        <Dropdown.Item><Link to="/home" className="item-menu-button">{phoneIcon} Contacto</Link></Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   )
