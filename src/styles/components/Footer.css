@@ -32,3 +32,13 @@
 .network-icon {
   color: var(--secondary-color);
 }
+
+@media only screen and (min-width: 767px) {
+  .Footer {
+    padding: 40px;
+  }
+  .network-icon {
+    font-size: 1.4rem;
+    margin: 20px;
+  }
+}

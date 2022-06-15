@@ -19,3 +19,14 @@
 .logo-image {
   width: 150px;
 }
+
+
+@media only screen and (min-width: 767px) {
+  .Header {
+    height: 100px;
+    padding: 0 30px;
+  } 
+  .logo-image {
+    width:180px;
+  }
+}

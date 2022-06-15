@@ -7,3 +7,14 @@
   overscroll-behavior: contain;
   scroll-snap-type: x proximity;
 }
+
+@media only screen and (min-width: 767px) {
+  .cards-carousel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 5px;
+    padding: 30px;
+    padding-top: 10px;
+    justify-items: center;
+  }
+}

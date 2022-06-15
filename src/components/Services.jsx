@@ -10,33 +10,32 @@ const Services = () => {
       <SectionTitle title="NUESTROS SERVICIOS" />
       <section className='cards-contaMercadeoiner--slider'>
         <CardsCarousel>
-
           <Card 
               className="card-container" 
               title="Asesoría"
-              img="https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmVzaW9uYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
-              description="Escuchamos las necesidades de tu negocio, y establecemos un plan de acción para obtener los resultados más costoefectivos."
+              img="https://cdn.pixabay.com/photo/2017/12/21/12/08/consulting-3031678_960_720.jpg"
+              description="Nos esforzamos por entender tu idea y diseñamos un plan estrategico que logre los resultados más costoefectivos."
               buttonText='Detalles'
             /> 
             <Card 
               className="card-container" 
               title="Planeación"
               img="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60"
-              description="Planearemos una campaña publicitaria para tu marca. Basados en el presupuesto y los objetivos de tu empresa."
+              description="Planeamos una campaña publicitaria para tu marca. Basados en el presupuesto y los objetivos de tu empresa."
               buttonText='Detalles'
             /> 
             <Card 
               className="card-container" 
               title="Producción"
-              img="https://images.unsplash.com/photo-1520390138845-fd2d229dd553?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtZXJhJTIwaGFuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60"
-              description="Grabaremos un video para tu marca en una excelente calidad tanto en la produccion como en la post-producción."
+              img="https://images.unsplash.com/photo-1473968512647-3e447244af8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+              description="Grabamos material audiovisual para tu marca en calidad HD y 4k, contamos con el equipo y el talento necesario."
               buttonText='Detalles'
             />
             <Card 
               className="card-container" 
-              title="Campaña completa"
-              img="https://images.unsplash.com/photo-1434626881859-194d67b2b86f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhbXBhaWdufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60"
-              description="Nos encargamos de todo para crear y lanzar una campaña publicitaria desde cero, hecho todo a la medida de tu empresa."
+              title="Todo en uno"
+              img="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+              description="Nos encargamos del crecimiento de tu empresa. Hacemos todas las labores de un departamento de marketing."
               buttonText='Detalles'
             /> 
             <Card 

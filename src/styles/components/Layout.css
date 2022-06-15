@@ -3,3 +3,11 @@
    height: 100%;
    margin: 0 auto;
  }
+
+ @media only screen and (min-width: 767px) {
+  .layout-content-container {
+    padding-top: 100px;
+    height: 100%;
+    margin: 0 auto;
+  }
+ }

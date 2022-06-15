@@ -11,7 +11,7 @@ const About = () => {
         <Card 
           className="card-container" 
           title="¿Como empezamos?"
-          img="https://images.unsplash.com/photo-1603792907191-89e55f70099a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNlY3JldHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          img="https://images.unsplash.com/photo-1635144432103-47f3a18bae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
           description="Las empresas estan moviendose más rapido que nunca y nos dimos cuenta de que les faltaba algo."
           buttonText='Seguir leyendo'
         /> 

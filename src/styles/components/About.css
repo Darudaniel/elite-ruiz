@@ -1,3 +1,10 @@
 .About {
   background: linear-gradient(0deg, rgba(196, 196, 196, 0) 0%, rgba(103, 103, 103, 0.327111) 61.46%, rgba(62, 62, 62, 0.47178) 80.21%, rgba(14, 14, 14, 0.55) 100%);
 }
+
+@media only screen and (min-width: 767px) {
+  .About {
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+}
