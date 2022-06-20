@@ -3,8 +3,6 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  width: 70%;
-  min-height: 410px;
   margin: 10px;
   background-color: var(--just-white);
   padding: 10px 20px;
@@ -12,10 +10,10 @@
   scroll-snap-align: center;
   min-width: 190px;
   max-width: 300px;
-  height: 100%;
   border: none;
   border-radius: 15px;
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
 }
 
 .Card-image--container {
@@ -26,20 +24,30 @@
 .Card-image {
   width: 100%;
   min-height: 100px;
-}
-
-.Card-button {
-  background-color: var(--secondary-color);
-  padding: 3px 5px;
-  margin: 10px 0;
-  border: none;
-  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
 }
 
 @media only screen and (min-width: 767px) {
   .Card {
-    width: 100%;
+    max-width: 300px;
+    width: 300px;
     padding: 20px;
     padding-top: 5px;
   }
+  .Card-content {
+    width: 250px;
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .Card {
+    max-width: 400px;
+    width: 400px;
+    padding: 0 25px;
+    padding-bottom: 30px;
+  }
+
+  .Card-content {
+    width: 350px;
+  } 
 }

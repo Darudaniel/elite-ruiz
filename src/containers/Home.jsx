@@ -12,7 +12,7 @@ const Home = () => {
       <Hero 
           image={heroImage} 
           alt="Foto de mujer investigando un planeta virtual" 
-          title="Si estas aqui es porque eres diferente al resto."
+          title="Si estas aqui es porque eres diferente a los demás."
           subtitle="Consigue ahora mismo consultoría gratis para tu negocio." 
           buttonTitle="Obtener consultoría" 
           buttonLink="/contact"

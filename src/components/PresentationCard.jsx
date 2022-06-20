@@ -8,7 +8,7 @@ const PresentationCard = ({ image, name, caption, phone, mail }) => {
       <div className='portait-container'>
         <img className='portait' src={image} alt={`Portrait of ${name}`} />
       </div>
-      <CardTitle title={name} />
+      <h3 className='name'>{name}</h3>
       <p className='caption'>{caption}</p>
       <h3 className='phone'>{phone}</h3>
       <p className='mail'>{mail}</p>

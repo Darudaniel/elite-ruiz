@@ -27,6 +27,10 @@
   top: -60px;
 }
 
+.name {
+  margin: 20px 0;
+}
+
 .caption {
   text-align: center;
   font-size: 1.4rem;
@@ -48,14 +52,56 @@
 
 
 @media only screen and (min-width: 767px) {
+  .PresentationCard {
+    max-width: 1000px;
+    padding: 0 50px;
+    margin-top: 85px;
+  }
+  .portait {
+    width: 130px;
+    top: -85px;
+  }
+  .name {
+    font-size: 3rem;
+  }
   .caption {
     font-size: 2rem;
+    margin: 15px 0;
   }
   .phone {
     font-size: 2.4rem;
+    margin: 15px 0;
   }
   .mail {
     font-size: 2rem;
+    line-height: 2.8rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .PresentationCard {
+    max-width: 1000px;
+    padding: 0 50px;
+    padding-top: 60px;
+    margin-top: 130px;
+  }
+  .portait {
+    width: 200px;
+    top: -160px;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .caption {
+    font-size: 3rem;
+    margin: 15px 0;
+  }
+  .phone {
+    font-size: 4rem;
+    margin: 15px 0;
+  }
+  .mail {
+    font-size: 3.2rem;
     line-height: 2.8rem;
   }
 }

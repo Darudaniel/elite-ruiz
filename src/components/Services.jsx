@@ -8,7 +8,7 @@ const Services = () => {
   return(
     <div className='Services'>
       <SectionTitle title="NUESTROS SERVICIOS" />
-      <section className='cards-contaMercadeoiner--slider'>
+      <section className='carousel-container '>
         <CardsCarousel>
           <Card 
               className="card-container" 
@@ -37,13 +37,6 @@ const Services = () => {
               img="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
               description="Nos encargamos del crecimiento de tu empresa. Hacemos todas las labores de un departamento de marketing."
               buttonText='Detalles'
-            /> 
-            <Card 
-              className="card-container" 
-              title="¿Buscando trabajo?"
-              img="https://images.unsplash.com/photo-1598257006626-48b0c252070d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJhYmFqb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60"
-              description="Estamos abiertos a recibir personas de valor en nuestro equipo, contactanos para mas información."
-              buttonText='Enviar mensaje'
             /> 
         </CardsCarousel>
       </section>

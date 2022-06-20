@@ -30,3 +30,30 @@
     width:180px;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .Header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-image {
+    width: 150px;
+  }
+
+  .logo-container {
+    width: 3000px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1439px) {
+  .Header {
+    height: 130px;
+  }
+  .logo-image {
+    width: 250px;
+  }
+}

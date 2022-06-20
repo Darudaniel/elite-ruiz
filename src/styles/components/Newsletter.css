@@ -1,6 +1,10 @@
 .Newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   background-color: var(--third-color);
   padding: 20px;
   padding-bottom: 2px;
+  max-width: 100%;
 }
