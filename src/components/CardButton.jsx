@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const CardButton = ({ url, buttonText }) => {
   return(
-    <div>
+    <div className="Card-button--container">
       <Link to={url}>
           <button className='Card-button' type="button">
             {buttonText}

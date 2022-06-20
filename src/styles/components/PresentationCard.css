@@ -81,27 +81,31 @@
 @media only screen and (min-width: 1024px) {
   .PresentationCard {
     max-width: 1000px;
-    padding: 0 50px;
-    padding-top: 60px;
-    margin-top: 130px;
+    width: 500px;
+    padding: 30px 50px;
+    margin-top: 70px;
   }
   .portait {
-    width: 200px;
-    top: -160px;
+    width: 150px;
+    top: -100px;
   }
   .name {
-    font-size: 4rem;
+    font-size: 3.4rem;
+    padding-top: 10px;
+    margin-bottom: 10px;
   }
   .caption {
-    font-size: 3rem;
-    margin: 15px 0;
+    font-size: 2.6rem;
+    font-weight: 100;
+    margin: 0;
   }
   .phone {
-    font-size: 4rem;
-    margin: 15px 0;
+    font-size: 3rem;
+    margin: 10px 0;
   }
   .mail {
-    font-size: 3.2rem;
+    font-size: 3rem;
+    font-weight: 300;
     line-height: 2.8rem;
   }
 }
