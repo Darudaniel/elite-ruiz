@@ -12,7 +12,7 @@ const Card = ({ title, img, description, buttonText}) => {
         </div>
         <p>{description}</p>
       </div>
-      <CardButton url='/contact' buttonText={buttonText} />
+      <CardButton url='https://wa.link/qyj0gw' buttonText={buttonText} />
     </div>
   )
 }

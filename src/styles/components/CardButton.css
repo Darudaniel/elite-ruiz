@@ -1,8 +1,5 @@
-.Card-button--container {
-  height: 100%;
-}
-
 .Card-button {
+  color: var(--third-color);
   background-color: var(--secondary-color);
   padding: 3px 5px;
   margin: 10px 0;

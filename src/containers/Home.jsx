@@ -4,18 +4,18 @@ import Hero from '../components/Hero'
 import Services from '../components/Services'
 import About from '../components/About'
 import Contact from '../components/Contact'
-import Newsletter from '../components/Newsletter'
+// import Newsletter from '../components/Newsletter'
 
 const Home = () => {
   return(
     <div className="Home">
       <Hero 
           image={heroImage} 
-          alt="Foto de mujer investigando un planeta virtual" 
+          alt="Grey background" 
           title="Si estas aqui es porque eres diferente a los demás."
           subtitle="Consigue ahora mismo consultoría gratis para tu negocio." 
           buttonTitle="Obtener consultoría" 
-          buttonLink="/contact"
+          buttonLink="https://wa.link/qyj0gw"
           buttonColor="elite"
       />
       <section className="services-section">
@@ -26,7 +26,7 @@ const Home = () => {
       </section>
       <section className='contact-section'>
         <Contact />
-        <Newsletter />
+        {/* <Newsletter /> */}
       </section>
     </div>
   )

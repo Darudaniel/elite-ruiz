@@ -1,5 +1,4 @@
 import '../styles/components/ButtonLink.css'
-import { Link } from 'react-router-dom'
 
 const ButtonLink = ({title, link, color}) => {
 
@@ -13,14 +12,14 @@ const ButtonLink = ({title, link, color}) => {
   }
 
   return (
-      <Link to={link}>
+      <a href={link}>
           <button 
               className={`${color}-button button-link`} 
               type="button"
               onClick={handleButtonLink}
           >{title}
           </button>
-      </Link>
+      </a>
   )
 }
 

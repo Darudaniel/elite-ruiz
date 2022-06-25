@@ -1,5 +1,4 @@
 import '../styles/components/PresentationCard.css'
-import CardTitle from './CardTitle'
 import CardButton from './CardButton'
 
 const PresentationCard = ({ image, name, caption, phone, mail }) => {
@@ -12,7 +11,7 @@ const PresentationCard = ({ image, name, caption, phone, mail }) => {
       <p className='caption'>{caption}</p>
       <h3 className='phone'>{phone}</h3>
       <p className='mail'>{mail}</p>
-      <CardButton url='/contact' buttonText='Contactar' />      
+      <CardButton url='https://wa.link/qyj0gw' buttonText='Contactar' />      
     </div>
   )
 }
