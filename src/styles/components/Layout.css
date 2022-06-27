@@ -11,6 +11,12 @@
    align-items: center;
  }
 
+ .whatsapp-container {
+  position: fixed;
+  right: 20px;
+  bottom: 70px;
+ }
+
  @media only screen and (min-width: 767px) {
   .layout-content-container {
     padding-top: 100px;
