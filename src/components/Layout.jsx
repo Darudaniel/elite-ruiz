@@ -13,7 +13,9 @@ const Layout = ({ children }) => {
       <div className="layout-content-container">
         {children}
         <div className="whatsapp-container">
-          {whatsapp}
+          <a href="https://wa.link/qyj0gw">
+            {whatsapp}
+          </a>
         </div>
       </div>
       <Footer />
