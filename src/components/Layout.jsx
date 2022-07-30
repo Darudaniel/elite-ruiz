@@ -5,7 +5,7 @@ import Banner from '../assets/images/EliteRuizBanner.png'
 import { Icon } from '@iconify/react';
 
 const Layout = ({ children }) => {
-  const whatsapp = <Icon icon="logos:whatsapp" style={{ fontSize: '5.5rem'}}/>
+  const whatsapp = <Icon icon="logos:whatsapp-icon" style={{ fontSize: '5.5rem'}}/>
 
   return (
     <div className="Layout">
