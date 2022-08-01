@@ -1,18 +1,42 @@
+import { useState, useEffect } from 'react'
+import { db } from '../firebase'
+import { collection, getDocs, doc } from 'firebase/firestore'
 import '../styles/containers/Blog.css'
-import Card from "../components/Card"
+import EntryCard from "../components/EntryCard"
 import ContainerTitle from '../components/SectionTitle'
 
 const Blog = () => {
+
+  const [entries, setEntries] = useState([])
+  const entriesCollectionRef = collection(db, "entries")
+
+  useEffect(() => {
+    const getEntries = async () => {
+      const data = await getDocs(entriesCollectionRef)
+      setEntries(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })))
+    }
+
+    getEntries()
+  }, [])
+
   return (
     <div className="Blog">
       <ContainerTitle title="BLOG"/>
       <div className='posts-container'>
-        <Card
-        title="WHY"
-        img="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60"
-        description="¿Por que existe Elite Ruiz?"
-        buttonText="Leer" 
-        />
+        
+        {entries.map((entry) => {
+          return (
+            <EntryCard
+              key={entry.key}
+              title={entry.title}
+              img={entry.img}
+              description={entry.opening}
+              buttonText="Leer" 
+              buttonUrl="poner Url"
+            />
+          )
+        })}
+
       </div>
     </div>
   )
