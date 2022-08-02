@@ -7,6 +7,7 @@ import Layout from './components/Layout';
 import Home from './containers/Home'
 import ContactUs from './containers/ContactUs'
 import Blog from './containers/Blog'
+import EntryContainer from './containers/EntryContainer'
 
 const App = () => {
 
@@ -19,7 +20,7 @@ const App = () => {
           <Route exact path="/elite-ruiz" element={<Home/>} />
           <Route exact path="/contact" element={<ContactUs/>} />
           <Route exact path="/blog" element={<Blog/>} />
-          {/* <Route exact path={`/blog/${entry.id}`} element={<EntryContainer showEntry={entry.id} />} /> */}
+          <Route exact path="/blog/:entryId" element={<EntryContainer />} />
         </Routes>
       </Layout>
   );
