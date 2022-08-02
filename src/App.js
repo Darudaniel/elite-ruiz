@@ -9,6 +9,7 @@ import ContactUs from './containers/ContactUs'
 import Blog from './containers/Blog'
 
 const App = () => {
+
   return (
       <Layout>
         <Routes>
@@ -18,6 +19,7 @@ const App = () => {
           <Route exact path="/elite-ruiz" element={<Home/>} />
           <Route exact path="/contact" element={<ContactUs/>} />
           <Route exact path="/blog" element={<Blog/>} />
+          {/* <Route exact path={`/blog/${entry.id}`} element={<EntryContainer showEntry={entry.id} />} /> */}
         </Routes>
       </Layout>
   );

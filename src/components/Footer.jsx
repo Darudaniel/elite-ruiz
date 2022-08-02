@@ -21,7 +21,7 @@ const Footer = () => {
       <div className='footer-text-container'></div>
         <h3 className='footer-text'>Somos expertos en publicidad digital, llevamos un año haciendo crecer la economia.</h3>
       <div className="social-networks">
-        <a onClick={handleClick} className="network-icon" href="https://www.instagram.com/danielruizen/?igshid=146eqhcu1h6ok">
+        <a onClick={handleClick} className="network-icon" href="https://www.instagram.com/elite.ruiz/">
             {instagram}
         </a>
         <a onClick={handleClick} className="network-icon" href="https://github.com/Darudaniel">
@@ -30,7 +30,7 @@ const Footer = () => {
         <a onClick={handleClick} className="network-icon" href="https://www.linkedin.com/in/daniel-ruiz-9343521b8/">
           {linkedin}
         </a>
-        <a onClick={handleClick} className="network-icon" href="https://twitter.com/Darubeat">
+        <a onClick={handleClick} className="network-icon" href="https://twitter.com/eliteruizdotcom">
           {twitter}
         </a>
       </div>

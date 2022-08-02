@@ -27,7 +27,7 @@ const Blog = () => {
         {entries.map((entry) => {
           return (
             <EntryCard
-              key={entry.key}
+              key={entry.id}
               title={entry.title}
               img={entry.img}
               description={entry.opening}

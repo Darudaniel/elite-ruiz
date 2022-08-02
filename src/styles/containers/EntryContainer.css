@@ -1,0 +1,13 @@
+.EntryContainer {
+  padding: 20px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .EntryContainer {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    padding-bottom: 100px;
+  }
+}
