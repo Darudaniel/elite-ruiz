@@ -10,6 +10,8 @@ const Blog = () => {
   const [entries, setEntries] = useState([])
   const entriesCollectionRef = collection(db, "entries")
 
+  let entryCounter = -1
+
   useEffect(() => {
     const getEntries = async () => {
       const data = await getDocs(entriesCollectionRef)
@@ -25,6 +27,7 @@ const Blog = () => {
       <div className='posts-container'>
         
         {entries.map((entry) => {
+          entryCounter = entryCounter + 1
           return (
             <EntryCard
               key={entry.id}
@@ -32,7 +35,7 @@ const Blog = () => {
               img={entry.img}
               description={entry.opening}
               buttonText="Leer" 
-              buttonUrl="poner Url"
+              buttonUrl={`blog/${entryCounter}`}
             />
           )
         })}

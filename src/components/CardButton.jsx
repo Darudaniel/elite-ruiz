@@ -1,13 +1,14 @@
+import { Link } from 'react-router-dom'
 import '../styles/components/CardButton.css'
 
-const CardButton = ({ url, buttonText }) => {
+const CardButton = ({ buttonText, buttonUrl }) => {
   return(
     <div className="Card-button--container">
-      <a href={url}>
+      <Link to={`/${buttonUrl}`}>
           <button className='Card-button' type="button">
             {buttonText}
           </button>
-      </a>  
+      </Link>  
     </div>
   )
 }

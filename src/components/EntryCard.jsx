@@ -12,7 +12,7 @@ const EntryCard = ({ title, img, description, buttonText, buttonUrl}) => {
         </div>
         <p>{description}</p>
       </div>
-      <CardButton url={buttonUrl} buttonText={buttonText} />
+      <CardButton buttonUrl={buttonUrl} buttonText={buttonText} />
     </div>
   )
 }
