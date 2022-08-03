@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
 import { db } from '../firebase'
-import { collection, getDocs, doc } from 'firebase/firestore'
+import { collection, getDocs } from 'firebase/firestore'
 import '../styles/containers/Blog.css'
+import CardsCarousel from '../components/CardsCarousel'
 import EntryCard from "../components/EntryCard"
 import ContainerTitle from '../components/SectionTitle'
 
@@ -24,7 +25,7 @@ const Blog = () => {
   return (
     <div className="Blog">
       <ContainerTitle title="BLOG"/>
-      <div className='posts-container'>
+      <CardsCarousel>
         
         {entries.map((entry) => {
           entryCounter = entryCounter + 1
@@ -35,12 +36,12 @@ const Blog = () => {
               img={entry.img}
               description={entry.opening}
               buttonText="Leer" 
-              buttonUrl={`blog/${entryCounter}`}
+              buttonUrl={`blog/${entry.id}`}
             />
           )
         })}
 
-      </div>
+      </CardsCarousel>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { collection, getDocs } from 'firebase/firestore';
+import { doc, getDoc } from 'firebase/firestore';
 import { db } from '../firebase';
 import '../styles/containers/EntryContainer.css'
 
@@ -8,30 +8,30 @@ const EntryContainer = () => {
 
   const { entryId } = useParams()
 
-  const [entries, setEntries] = useState([])
-  const entriesCollectionRef = collection(db, "entries")
+  const [myEntry, setMyEntry] = useState({})
+  const docRef = doc(db, "entries", entryId)
 
   useEffect(() => {
-    const getEntries = async () => {
-      const data = await getDocs(entriesCollectionRef)
-      setEntries(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })))
+    const getEntry = async () => {
+      const entry = await getDoc(docRef)
+      setMyEntry(entry.data())
     }
 
-    getEntries()
+    getEntry()
     
   }, [])
 
     return(
       <div className='EntryContainer'>
-        {entries.length > 0 ?
-          <div>
-            <h1>{entries[0].title}</h1>
-            <img className="entry-img" src={entries[entryId].img} alt="foto relacionada con el articulo" />
-            <p>{entries[entryId].opening}</p>
-            <h2>{entries[entryId].firstSubHeader}</h2>
-            <p>{entries[entryId].firstContent}</p>
-            <h2>{entries[entryId].secondSubHeader}</h2>
-            <p>{entries[entryId].secondContent}</p>
+        {myEntry.title ?
+          <div className='my-entry'>
+            <h1 className='entry-title'>{myEntry.title}</h1>
+            <img className="entry-img" src={myEntry.img} alt="foto relacionada con el articulo" />
+            <p className='entry-opening'>{myEntry.opening}</p>
+            <h2 className='entry-sub-header'>{myEntry.firstSubHeader}</h2>
+            <p className='entry-content'>{myEntry.firstContent}</p>
+            <h2 className='entry-sub-header'>{myEntry.secondSubHeader}</h2>
+            <p className='entry-content'>{myEntry.secondContent}</p>
           </div>
           : 
           console.log('Aun no ha llegado la respuesta de la api')
