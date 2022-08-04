@@ -16,7 +16,7 @@ const Services = () => {
               img="https://cdn.pixabay.com/photo/2017/12/21/12/08/consulting-3031678_960_720.jpg"
               description="Nos esforzamos por entender tu idea y diseñamos un plan estrategico que logre los resultados más costoefectivos."
               buttonText='Detalles'
-              buttonUrl="blog/UIxCrpARSpUbgTPX2ZRy"
+              buttonUrl="blog/OudjnoZIc7VibopFLVV1"
             /> 
             <Card 
               className="card-container" 
