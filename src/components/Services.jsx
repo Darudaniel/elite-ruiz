@@ -24,7 +24,7 @@ const Services = () => {
               img="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60"
               description="Planeamos una campaña publicitaria para tu marca. Basados en el presupuesto y los objetivos de tu empresa."
               buttonText='Detalles'
-              buttonUrl="blog/UIxCrpARSpUbgTPX2ZRy"
+              buttonUrl="blog/l0KMfNWVP9tzgZMpgJ7s"
             /> 
             <Card 
               className="card-container" 
@@ -32,7 +32,7 @@ const Services = () => {
               img="https://images.unsplash.com/photo-1473968512647-3e447244af8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
               description="Grabamos material audiovisual para tu marca en calidad HD y 4k, contamos con el equipo y el talento necesario."
               buttonText='Detalles'
-              buttonUrl="blog/UIxCrpARSpUbgTPX2ZRy"
+              buttonUrl="blog/nJ8aGoyxOBT6bc2gWlr5"
             />
             <Card 
               className="card-container" 
@@ -40,7 +40,7 @@ const Services = () => {
               img="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
               description="Nos encargamos del crecimiento de tu empresa. Hacemos todas las labores de un departamento de marketing."
               buttonText='Detalles'
-              buttonUrl="blog/UIxCrpARSpUbgTPX2ZRy"
+              buttonUrl="blog/RM1J4EP86gtJby7lnzem"
             /> 
         </CardsCarousel>
       </section>

@@ -2,7 +2,7 @@ import '../styles/components/Card.css'
 import CardTitle from './CardTitle'
 import CardButton from './CardButton'
 
-const Card = ({ title, img, description, buttonText, buttonUrl}) => {
+const Card = ({ title, img, description, buttonText, buttonUrl, buttonExtraUrl}) => {
   return(
     <div className='Card'>
       <div className='Card-content'>
@@ -12,7 +12,11 @@ const Card = ({ title, img, description, buttonText, buttonUrl}) => {
         </div>
         <p>{description}</p>
       </div>
-      <CardButton buttonUrl={buttonUrl} buttonText={buttonText} />
+      {buttonUrl ?
+        <CardButton buttonUrl={buttonUrl} buttonText={buttonText} />
+        :
+        <CardButton buttonExtraUrl={buttonExtraUrl} buttonText={buttonText} />
+      }
     </div>
   )
 }
