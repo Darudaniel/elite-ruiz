@@ -11,7 +11,7 @@ const PresentationCard = ({ image, name, caption, phone, mail }) => {
       <p className='caption'>{caption}</p>
       <h3 className='phone'>{phone}</h3>
       <p className='mail'>{mail}</p>
-      <CardButton url='https://wa.link/qyj0gw' buttonText='Contactar' />      
+      <CardButton buttonExtraUrl='https://wa.link/qyj0gw' buttonText='Contactar' />      
     </div>
   )
 }

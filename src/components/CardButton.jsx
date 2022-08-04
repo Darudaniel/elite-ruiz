@@ -1,14 +1,22 @@
 import { Link } from 'react-router-dom'
 import '../styles/components/CardButton.css'
 
-const CardButton = ({ buttonText, buttonUrl }) => {
+const CardButton = ({ buttonText, buttonUrl, buttonExtraUrl }) => {
   return(
     <div className="Card-button--container">
-      <Link to={`/${buttonUrl}`}>
+      {buttonUrl ?
+        <Link to={`/${buttonUrl}`}>
           <button className='Card-button' type="button">
             {buttonText}
           </button>
-      </Link>  
+        </Link>  
+        :
+        <a href={buttonExtraUrl}>
+          <button className='Card-button' type="button">
+            {buttonText}
+          </button>
+        </a>
+      }
     </div>
   )
 }
