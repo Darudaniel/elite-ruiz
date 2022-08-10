@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.50c240ba.css",
-    "main.js": "/static/js/main.4c200d27.js",
+    "main.css": "/static/css/main.86f1b65c.css",
+    "main.js": "/static/js/main.8f5a6c80.js",
     "static/js/787.5de1a71d.chunk.js": "/static/js/787.5de1a71d.chunk.js",
     "static/media/HeaderHomeImage.jpg": "/static/media/HeaderHomeImage.3c24f51ec1d324b0fd52.jpg",
     "static/media/Profile2022comprimida.png": "/static/media/Profile2022comprimida.92ab91c48981fd7a4772.png",
     "static/media/EliteRuizBanner.png": "/static/media/EliteRuizBanner.1b8b446e9f79dfacd95a.png",
     "index.html": "/index.html",
-    "main.50c240ba.css.map": "/static/css/main.50c240ba.css.map",
-    "main.4c200d27.js.map": "/static/js/main.4c200d27.js.map",
+    "main.86f1b65c.css.map": "/static/css/main.86f1b65c.css.map",
+    "main.8f5a6c80.js.map": "/static/js/main.8f5a6c80.js.map",
     "787.5de1a71d.chunk.js.map": "/static/js/787.5de1a71d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50c240ba.css",
-    "static/js/main.4c200d27.js"
+    "static/css/main.86f1b65c.css",
+    "static/js/main.8f5a6c80.js"
   ]
 }
