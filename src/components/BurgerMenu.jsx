@@ -24,6 +24,7 @@ const BurgerMenu = () => {
     <Dropdown className="burger-menu" onClick={handleClick}>
       <Dropdown.Toggle className="burger-button" variant="Secondary" id="dropdown-basic">
         {bars}
+        {/* <Icon icon="bi:justify" style={{ fontSize: '4rem' }}/> */}
       </Dropdown.Toggle>
       <Dropdown.Menu>
         <Dropdown.Item><Link to="/home" className="item-menu-button">{homeIcon} Inicio</Link></Dropdown.Item>

@@ -4,7 +4,6 @@ import Hero from '../components/Hero'
 import Services from '../components/Services'
 import About from '../components/About'
 import Contact from '../components/Contact'
-// import Newsletter from '../components/Newsletter'
 
 const Home = () => {
   return(
@@ -26,7 +25,6 @@ const Home = () => {
       </section>
       <section className='contact-section'>
         <Contact />
-        {/* <Newsletter /> */}
       </section>
     </div>
   )
