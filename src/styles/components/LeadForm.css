@@ -6,7 +6,6 @@
   margin: 15px 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   width: 65vw;
   max-width: 800px;
@@ -16,6 +15,7 @@
   font-size: 2rem;
   color: var(--just-white);
   width: 100%;
+  text-align: center  ;
 }
 
 .LeadForm input {
@@ -41,18 +41,18 @@
 }
 
 @media only screen and (min-width: 767px) {
+  .LeadForm {
+    margin: 0;
+  }
   .LeadForm label {
-    font-size: 3.4rem;
+    font-size: 2.5rem;
   }
   .LeadForm button {
-    font-size: 3.4rem;
-    padding: 20px 50px;
-  }
-  .LeadForm {
-    margin-bottom: 40px;
+    font-size: 2.5rem;
+    padding: 10px 50px;
   }
   .LeadForm input {
-    height: 90px;
+    height: 50px;
     margin: 25px 0;
   }
 }
@@ -60,7 +60,7 @@
 @media only screen and (min-width: 1024px) {
   .LeadForm input {
     font-size: 2.4rem;
-    height: 70px;
+    height: 60px;
   }
   .LeadForm button {
     font-size: 2.4rem;

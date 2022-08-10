@@ -3,6 +3,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Banner from '../assets/images/EliteRuizBanner.png'
 import { Icon } from '@iconify/react';
+import Newsletter from './Newsletter'
 
 const Layout = ({ children }) => {
   const whatsapp = <Icon icon="logos:whatsapp-icon" style={{ fontSize: '5.5rem'}}/>
@@ -18,6 +19,7 @@ const Layout = ({ children }) => {
           </a>
         </div>
       </div>
+      <Newsletter />
       <Footer />
     </div>    
   )

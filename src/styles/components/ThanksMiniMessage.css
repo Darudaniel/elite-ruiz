@@ -1,0 +1,8 @@
+.ThanksMiniMessage {
+  color: var(--primary-color);
+  border: 3px solid var(--secondary-color);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  max-width: 600px;
+}
