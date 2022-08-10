@@ -17,7 +17,7 @@ const Hero = ({image, alt, title, subtitle, buttonTitle, buttonLink, buttonColor
         color={buttonColor}
       />
       <br />
-      <CardButton buttonText="Ir al blog" buttonUrl="/blog" />
+      <CardButton buttonText="Ir al blog" buttonUrl="blog" />
     </div>
   </div>
   )
