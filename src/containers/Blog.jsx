@@ -11,8 +11,6 @@ const Blog = () => {
   const [entries, setEntries] = useState([])
   const entriesCollectionRef = collection(db, "entries")
 
-  let entryCounter = -1
-
   useEffect(() => {
     const getEntries = async () => {
       const data = await getDocs(entriesCollectionRef)
@@ -27,8 +25,7 @@ const Blog = () => {
       <ContainerTitle title="BLOG"/>
       <CardsCarousel>
         
-        {entries.map((entry) => {
-          entryCounter = entryCounter + 1
+        {entries.reverse().map((entry) => {
           return (
             <EntryCard
               key={entry.id}
