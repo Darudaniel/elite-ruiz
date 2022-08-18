@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { doc, getDoc } from 'firebase/firestore';
-import { db } from '../firebase';
+import { db, registerEvent } from '../firebase';
 import '../styles/containers/EntryContainer.css'
 
 const EntryContainer = () => {
@@ -15,6 +15,7 @@ const EntryContainer = () => {
     const getEntry = async () => {
       const entry = await getDoc(docRef)
       setMyEntry(entry.data())
+      registerEvent(myEntry.title)
     }
 
     getEntry()

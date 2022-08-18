@@ -1,7 +1,13 @@
-import { Link } from 'react-router-dom'
 import '../styles/components/CardButton.css'
+import { Link } from 'react-router-dom'
+import { registerEvent } from '../firebase'
 
 const CardButton = ({ buttonText, buttonUrl, buttonExtraUrl }) => {
+
+  const handleClick = () => {
+    registerEvent(buttonText)
+  }
+
   return(
     <div className="Card-button--container">
       {buttonUrl ?
@@ -11,7 +17,7 @@ const CardButton = ({ buttonText, buttonUrl, buttonExtraUrl }) => {
           </button>
         </Link>  
         :
-        <a href={buttonExtraUrl}>
+        <a onClick={handleClick} href={buttonExtraUrl}>
           <button className='Card-button' type="button">
             {buttonText}
           </button>

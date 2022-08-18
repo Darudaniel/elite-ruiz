@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import '../styles/components/LeadForm.css'
-import { db } from '../firebase'
+import { db, registerEvent } from '../firebase'
 import { addDoc, collection } from '@firebase/firestore'
 import ThanksMiniMessage from './ThanksMiniMessage'
 
@@ -33,6 +33,7 @@ const LeadForm = () => {
       const docRef = await addDoc(collection(db, "leads"), formData);
       console.log("Document written with ID: ", docRef.id);
       setLeadCaptured(true)
+      registerEvent('lead_register')
     } catch (e) {
       console.error("Error adding document: ", e);
     }
