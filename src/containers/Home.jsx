@@ -6,14 +6,15 @@ import About from '../components/About'
 import Contact from '../components/Contact'
 
 const Home = () => {
+
   return(
     <div className="Home">
       <Hero 
           image={heroImage} 
           alt="Grey background" 
           title="Si estas aqui es porque eres diferente a los demás."
-          subtitle="Consigue ahora mismo consultoría gratis para tu negocio." 
-          buttonTitle="Obtener consultoría" 
+          subtitle="Aprende a crear o potenciar un negocio con el metodo freelancer" 
+          buttonTitle="Obtener consultoría gratis"
           buttonLink="https://wa.link/qyj0gw"
           buttonColor="elite"
       />

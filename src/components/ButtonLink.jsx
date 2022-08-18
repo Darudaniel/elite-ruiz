@@ -1,8 +1,12 @@
 import '../styles/components/ButtonLink.css'
+import { registerEvent } from '../firebase'
 
 const ButtonLink = ({title, link, color}) => {
 
   const handleButtonLink = () => {
+    registerEvent(title)
+    // const analytics = getAnalytics();
+    // logEvent(analytics, '')
       // ReactGA.event({
       //     category: 'Button',
       //     action: `Link to ${title}`
