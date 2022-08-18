@@ -25,7 +25,7 @@ const Blog = () => {
       <ContainerTitle title="BLOG"/>
       <CardsCarousel>
         
-        {entries.reverse().map((entry) => {
+        {entries.map((entry) => {
           return (
             <EntryCard
               key={entry.id}
