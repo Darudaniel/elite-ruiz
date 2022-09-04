@@ -33,6 +33,11 @@ const EntryContainer = () => {
             <p className='entry-content'>{myEntry.firstContent}</p>
             <h2 className='entry-sub-header'>{myEntry.secondSubHeader}</h2>
             <p className='entry-content'>{myEntry.secondContent}</p>
+            {myEntry.author ? 
+                <p className='entry-opening'>Escrito por: {myEntry.author}</p>
+               :
+                <p className='entry-opening'>Escrito por: Anonimo</p>
+            }
           </div>
           : 
           console.log('Aun no ha llegado la respuesta de la api')
