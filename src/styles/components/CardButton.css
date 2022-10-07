@@ -1,7 +1,7 @@
 .Card-button {
   color: var(--third-color);
   background-color: var(--secondary-color);
-  padding: 3px 5px;
+  padding: 8px 20px;
   margin: 10px 0;
   border: none;
   box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { db, registerEvent } from '../firebase'
 import { collection, getDocs } from 'firebase/firestore'
 import '../styles/containers/Blog.css'
-import CardsCarousel from '../components/CardsCarousel'
+import EntriesList from '../components/EntriesList'
 import EntryCard from "../components/EntryCard"
 import ContainerTitle from '../components/SectionTitle'
 
@@ -25,12 +25,12 @@ const Blog = () => {
   return (
     <div className="Blog">
       <ContainerTitle title="BLOG"/>
-      <CardsCarousel>
-        
+      <EntriesList>
         {entries.map((entry) => {
           return (
             <EntryCard
               key={entry.id}
+              entryId={entry.id}
               title={entry.title}
               img={entry.img}
               description={entry.opening}
@@ -39,8 +39,7 @@ const Blog = () => {
             />
           )
         })}
-
-      </CardsCarousel>
+      </EntriesList>
     </div>
   )
 }

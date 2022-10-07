@@ -1,0 +1,16 @@
+.entries-list {
+  display: block;
+}
+
+@media only screen and (min-width: 767px) {
+  .entries-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  
+}

@@ -47,7 +47,7 @@ p {
 }
 
 a:hover {
-  color: var(--secondary-color);
+  color: none;
   text-decoration: none;
 }
 

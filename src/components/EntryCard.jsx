@@ -1,10 +1,11 @@
 import '../styles/components/EntryCard.css'
 import CardTitle from './CardTitle'
 import CardButton from './CardButton'
+import { Link } from 'react-router-dom'
 
-const EntryCard = ({ title, img, description, buttonText, buttonUrl}) => {
+const EntryCard = ({ title, img, description, entryId, buttonText, buttonUrl}) => {
   return(
-    <div className='entry-card'>
+    <Link to={entryId} className='entry-card'>
       <div className='entry-card-content'>
         <CardTitle title={title} />
         <div className='entry-card-image--container'>
@@ -13,7 +14,7 @@ const EntryCard = ({ title, img, description, buttonText, buttonUrl}) => {
         <p>{description}</p>
       </div>
       <CardButton buttonUrl={buttonUrl} buttonText={buttonText} />
-    </div>
+    </Link>
   )
 }
 

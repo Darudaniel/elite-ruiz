@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  margin: 10px;
+  margin: 25px 10px;
   background-color: var(--just-white);
   padding: 10px 20px;
   padding-top: 0;
@@ -11,9 +11,12 @@
   min-width: 190px;
   max-width: 300px;
   height: 100%;
+  max-height: 800px;
   border: none;
   border-radius: 15px;
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+  color: black;
+  text-decoration: none;
 }
 
 .entry-card-image--container {
@@ -29,8 +32,7 @@
 
 @media only screen and (min-width: 767px) {
   .entry-card {
-    max-width: 300px;
-    width: 300px;
+    width: 100px;
     padding: 20px;
     padding-top: 5px;
   }
@@ -41,13 +43,12 @@
 
 @media only screen and (min-width: 1024px) {
   .entry-card {
-    max-width: 400px;
-    width: 400px;
+    width: 300px;
     padding: 0 25px;
     padding-bottom: 30px;
   }
 
   .entry-card-content {
-    width: 350px;
+    width: 100%;
   } 
 }
