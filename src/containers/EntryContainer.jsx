@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { doc, getDoc } from 'firebase/firestore';
 import { db, registerEvent } from '../firebase';
 import '../styles/containers/EntryContainer.css'
+import EntriesList from '../components/EntriesList';
 
 const EntryContainer = () => {
 
@@ -36,8 +37,10 @@ const EntryContainer = () => {
             {myEntry.author ? 
                 <p className='entry-opening'>Escrito por: {myEntry.author}</p>
                :
-                <p className='entry-opening'>Escrito por: Anonimo</p>
+                <p className='entry-opening'>Escrito por: Anónimo</p>
             }
+            <h3 className="articles-section-title">Mas artículos</h3>
+            <EntriesList />
           </div>
           : 
           console.log('Aun no ha llegado la respuesta de la api')

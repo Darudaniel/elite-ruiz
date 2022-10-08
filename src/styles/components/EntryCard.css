@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  margin: 25px 10px;
+  margin: 15px 10px;
   background-color: var(--just-white);
   padding: 10px 20px;
   padding-top: 0;
@@ -32,7 +32,7 @@
 
 @media only screen and (min-width: 767px) {
   .entry-card {
-    width: 100px;
+    width: 100%;
     padding: 20px;
     padding-top: 5px;
   }
@@ -43,9 +43,10 @@
 
 @media only screen and (min-width: 1024px) {
   .entry-card {
-    width: 300px;
+    width: 100%;
     padding: 0 25px;
     padding-bottom: 30px;
+    margin: 35px 10px;
   }
 
   .entry-card-content {
