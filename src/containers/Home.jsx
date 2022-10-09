@@ -12,9 +12,9 @@ const Home = () => {
       <Hero 
           image={heroImage} 
           alt="Grey background" 
-          title="Si estas aqui es porque eres diferente a los demás."
-          subtitle="Aprende a crear o potenciar un negocio con el metodo freelancer" 
-          buttonTitle="Obtener consultoría gratis"
+          title="Videos para tu marca personal"
+          subtitle="2 años de experiencia editando videos para todo tipo de clientes y redes sociales" 
+          buttonTitle="Contactar por whatsapp"
           buttonLink="https://wa.link/qyj0gw"
           buttonColor="elite"
       />

@@ -1,6 +1,6 @@
 .Footer {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 15px 0 25px 0;
@@ -16,7 +16,7 @@
 }
 
 .footer-text {
-  padding: 10px 30px;
+  padding: 0 30px;
   text-align: center;
   color: var(--primary-color);
   font-weight: 400;
@@ -27,6 +27,7 @@
   padding:15px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .network-icon {
@@ -38,30 +39,12 @@
     padding: 40px;
   }
   .network-icon {
-    font-size: 1.4rem;
-    margin: 20px;
-  }
-}
-
-@media only screen and (min-width: 767px) {
-  .Footer {
-    padding: 40px;
-  }
-  .network-icon {
     font-size: 2rem;
+    margin: 20px;
   }
   .footer-text {
     font-size: 3.2rem;
     max-width: 900px;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .footer-text {
-    margin-top: 50px;
-  }
-  .network-icon {
-    margin-bottom: 100px;
   }
 }
 
@@ -71,7 +54,6 @@
     margin: 30px 80px;
   }
   .footer-text {
-    padding: 40px;
     font-size: 4rem;
   }
 }

@@ -16,7 +16,7 @@ const Footer = () => {
   return(
     <footer className="Footer">
       <div className='footer-text-container'></div>
-        <h3 className='footer-text'>Somos expertos en publicidad digital, llevamos un año haciendo crecer la economia.</h3>
+        <h3 className='footer-text'>No esperes más para tener tu marca en internet.</h3>
       <div className="social-networks">
         <a onClick={handleClick} className="network-icon" href="https://www.instagram.com/elite.ruiz/">
             {instagram}
