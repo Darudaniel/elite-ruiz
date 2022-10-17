@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const EntryCard = ({ title, img, description, entryId, buttonText, buttonUrl}) => {
   return(
-    <Link to={entryId} className='entry-card'>
+    <Link to={`/blog/${entryId}`} className='entry-card'>
       <div className='entry-card-content'>
         <CardTitle title={title} />
         <div className='entry-card-image--container'>

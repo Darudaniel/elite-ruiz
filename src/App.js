@@ -22,7 +22,7 @@ const App = () => {
           <Route exact path="/elite-ruiz" element={<Home/>} />
           <Route exact path="/contact" element={<ContactUs/>} />
           <Route exact path="/blog" element={<Blog/>} />
-          <Route exact path="/blog/:entryId" element={<EntryContainer />} />
+          <Route path="/blog/:entryId" element={<EntryContainer />} />
         </Routes>
       </Layout>
   );
