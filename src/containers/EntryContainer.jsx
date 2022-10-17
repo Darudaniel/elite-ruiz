@@ -8,6 +8,7 @@ import EntriesList from '../components/EntriesList';
 const EntryContainer = () => {
 
   const { entryId } = useParams()
+  console.log(entryId)
 
   const [myEntry, setMyEntry] = useState({})
   const docRef = doc(db, "entries", entryId)
