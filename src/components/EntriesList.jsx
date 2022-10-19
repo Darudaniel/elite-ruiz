@@ -19,7 +19,7 @@ const EntriesList = () => {
     }
 
     getEntries()
-  }, [])  
+  }, [entriesCollectionRef])  
 
   return(
     <div className='entries-list'>

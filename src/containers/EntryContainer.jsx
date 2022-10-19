@@ -5,24 +5,21 @@ import { db, registerEvent } from '../firebase';
 import '../styles/containers/EntryContainer.css'
 import EntriesList from '../components/EntriesList';
 
+
 const EntryContainer = () => {
-
   const { entryId } = useParams()
-  console.log(entryId)
-
   const [myEntry, setMyEntry] = useState({})
-  const docRef = doc(db, "entries", entryId)
-
+  
   useEffect(() => {
+    const docRef = doc(db, "entries", entryId)
+    window.scrollTo(0, 0)
     const getEntry = async () => {
       const entry = await getDoc(docRef)
       setMyEntry(entry.data())
       registerEvent(myEntry.title)
     }
-
     getEntry()
-    
-  }, [])
+  }, [entryId, myEntry.title])
 
     return(
       <div className='EntryContainer'>

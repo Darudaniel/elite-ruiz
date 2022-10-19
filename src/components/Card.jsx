@@ -1,10 +1,11 @@
 import '../styles/components/Card.css'
 import CardTitle from './CardTitle'
 import CardButton from './CardButton'
+import { Link } from 'react-router-dom'
 
 const Card = ({ title, img, description, buttonText, buttonUrl, buttonExtraUrl}) => {
   return(
-    <div className='Card'>
+    <Link to={`/${buttonUrl}`} className='Card'>
       <div className='Card-content'>
         <CardTitle title={title} />
         <div className='Card-image--container'>
@@ -17,7 +18,7 @@ const Card = ({ title, img, description, buttonText, buttonUrl, buttonExtraUrl})
         :
         <CardButton buttonExtraUrl={buttonExtraUrl} buttonText={buttonText} />
       }
-    </div>
+    </Link>
   )
 }
 
