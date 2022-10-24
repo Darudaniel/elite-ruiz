@@ -6,7 +6,7 @@ import Card from './Card'
 const About = () => {
   return(
     <div className='About'>
-      <SectionTitle title="QUIENES SOMOS" color="white" />
+      <SectionTitle title="SOBRE ELITE RUIZ" color="white" />
       <CardsCarousel>
         <Card 
           className="card-container" 
