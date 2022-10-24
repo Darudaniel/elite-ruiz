@@ -26,8 +26,6 @@
 }
 
 .entry-opening {
-  margin-top: 10px;
-  margin-bottom: 15px;
   color: var(--light-font);
   font-style: italic;
   font-size: 1.6rem;
@@ -53,7 +51,7 @@
 
 .articles-section-title{
   align-self: center;
-  margin-bottom: 30px;
+  margin: 35px 0 15px 0;
 }
 
 @media only screen and (min-width: 767px) {
