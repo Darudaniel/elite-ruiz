@@ -8,18 +8,16 @@ import { db } from '../firebase'
 const EntriesList = () => {
 
   const [entries, setEntries] = useState([])
-  const entriesCollectionRef = collection(db, "entries")
-
   
-
   useEffect(() => {
+    const entriesCollectionRef = collection(db, "entries")
     const getEntries = async () => {
       const data = await getDocs(entriesCollectionRef)
       setEntries(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })))
     }
 
     getEntries()
-  }, [entriesCollectionRef])  
+  }, [])  
 
   return(
     <div className='entries-list'>

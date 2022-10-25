@@ -9,17 +9,17 @@ import EntriesList from '../components/EntriesList';
 const EntryContainer = () => {
   const { entryId } = useParams()
   const [myEntry, setMyEntry] = useState({})
+  registerEvent(myEntry.title)
   
   useEffect(() => {
-    const docRef = doc(db, "entries", entryId)
     window.scrollTo(0, 0)
+    const docRef = doc(db, "entries", entryId)
     const getEntry = async () => {
       const entry = await getDoc(docRef)
       setMyEntry(entry.data())
-      registerEvent(myEntry.title)
     }
     getEntry()
-  }, [entryId, myEntry.title])
+  }, [entryId])
 
     return(
       <div className='EntryContainer'>
