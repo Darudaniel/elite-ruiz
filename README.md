@@ -1,12 +1,12 @@
 # ELITE RUIZ WEB PROJECT
 
-Elite Ruiz es una empresa creada para mejorar la economia latinoamericana partiendo de la idea de que las empresas son las potenciadoras de la misma. 
+Elite ruiz es una empresa creada para ayudar a otros emprendedores a potenciar sus proyectos personales. 
 
-En latinoamerica abunda el talento y las oportuidades, pero la comunicacion entre estos dos no es para nada bueno, esto debido a que en los paises en vias de desarrollo como los de nuestro querido continente latinoamericano, suelen estar atrasados en soluciones tecnologicas y educativas.
+En latinoamerica abunda el talento y las oportuidades, pero la comunicacion entre estos dos aun no es eficiente, esto debido a que en los paises en vias de desarrollo como los de nuestro querido continente latinoamericano, suelen estar atrasados en soluciones tecnologicas y educativas.
 
 Daniel Ruiz el fundador de la empresa es un medico en formacion colombiano. Que cree firmemente en el potencial que tiene latinoamerica en talento humano.
 
-"En regiones de la india la vida de muchas familias ha cambiado para siempre gracias a la oleada tecnologica. Que consiste en que un miembro usualmente joven de la familia entra en la industria de la tecnologia y logra trabajar para clientes extranjeros.
+"En regiones de la india la vida de muchas familias ha cambiado para siempre gracias a la oleada tecnologica. Que consiste en que un miembro usualmente joven de la familia entra en la industria de la tecnología y mejora las condiciones socioculturales de su comunidad debido a que usualmente trabajan para clientes extranjeros de paises con mayor poder adquisitivo."
 
 Esto trae muchos beneficios economicos ya que en paises extranjeros usualmente los pagos son mucho mejores y las condiciones laborales son bien reguladas.
 
@@ -14,7 +14,7 @@ Eso mismo puede pasar en latinoamerica en los siguientes años ya que si algo di
 
 Esta web es una muestra de que se pueden crear cosas increibles gracias a la constancia y al amor por el aprendizaje.
 
-El objetivo es que sea un hub de proyectos interesantes al rededor de la marca Elite Ruiz.
+El objetivo es que sea un hub de proyectos.
 
 Dejanos un like si quisieras saber mas acerca del proyecto y sus diferentes fases.
 
