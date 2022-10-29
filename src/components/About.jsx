@@ -22,7 +22,7 @@ const About = () => {
           img="https://images.unsplash.com/photo-1614028674026-a65e31bfd27c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
           description="Dos años de experiencia haciendo crecer la economia, potenciando negocios y construyendo marcas."
           buttonText='Seguir leyendo'
-          buttonUrl="blog/Ki2oHv2u8HuZ4dydRB6d"
+          buttonUrl="blog/JBr676WXu3jTrgW8wjXD"
         /> 
         <Card 
           className="card-container" 

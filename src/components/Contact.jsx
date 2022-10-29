@@ -10,7 +10,7 @@ const Contact = () => {
       <PresentationCard
         image={profilePhoto} 
         name="Daniel Ruiz" 
-        caption="Dos años de experiencia creando contenido para marcas."
+        caption="Consultoría y marketing"
         phone="3225836645"
         mail="habladaru@gmail.com"
       />

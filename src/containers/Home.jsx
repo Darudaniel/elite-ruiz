@@ -12,10 +12,10 @@ const Home = () => {
       <Hero 
           image={heroImage} 
           alt="Grey background" 
-          title="Videos para tu marca personal"
-          subtitle="2 años de experiencia editando videos para todo tipo de clientes y redes sociales" 
-          buttonTitle="Contactar por whatsapp"
-          buttonLink="https://wa.link/qyj0gw"
+          title="Mindset & Coaching"
+          subtitle="Hablame de tus ideas inspiradoras" 
+          buttonTitle="Ir al blog"
+          buttonLink="/blog"
           buttonColor="elite"
       />
       <section className="services-section">

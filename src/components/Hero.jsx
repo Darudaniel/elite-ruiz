@@ -1,6 +1,5 @@
 import ButtonLink from '../components/ButtonLink'
 import '../styles/components/Hero.css'
-import CardButton from './CardButton'
 
 const Hero = ({image, alt, title, subtitle, buttonTitle, buttonLink, buttonColor}) => {
   return(
@@ -16,8 +15,6 @@ const Hero = ({image, alt, title, subtitle, buttonTitle, buttonLink, buttonColor
         link={buttonLink}
         color={buttonColor}
       />
-      <br />
-      <CardButton buttonText="Ir al blog" buttonUrl="blog" />
     </div>
   </div>
   )
