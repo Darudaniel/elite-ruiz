@@ -10,7 +10,7 @@ const About = () => {
       <CardsCarousel>
         <Card 
           className="card-container" 
-          title="¿Como empezó?"
+          title="Historia"
           img="https://images.unsplash.com/photo-1635144432103-47f3a18bae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
           description="Las empresas en latinoamerica estan moviendose más rapido que nunca y me di cuenta de que les faltaba algo."
           buttonText='Seguir leyendo'
