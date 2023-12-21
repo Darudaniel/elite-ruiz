@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.19ae0dfb.css",
-    "main.js": "/static/js/main.7f4693ca.js",
-    "static/js/787.5de1a71d.chunk.js": "/static/js/787.5de1a71d.chunk.js",
+    "main.css": "/static/css/main.ed9eb1ab.css",
+    "main.js": "/static/js/main.c092cad9.js",
+    "static/js/787.9c12f0a9.chunk.js": "/static/js/787.9c12f0a9.chunk.js",
     "static/media/HeaderHomeImage.jpg": "/static/media/HeaderHomeImage.3c24f51ec1d324b0fd52.jpg",
     "static/media/Profile2022comprimida.png": "/static/media/Profile2022comprimida.92ab91c48981fd7a4772.png",
     "static/media/EliteRuizBanner.png": "/static/media/EliteRuizBanner.1b8b446e9f79dfacd95a.png",
     "index.html": "/index.html",
-    "main.19ae0dfb.css.map": "/static/css/main.19ae0dfb.css.map",
-    "main.7f4693ca.js.map": "/static/js/main.7f4693ca.js.map",
-    "787.5de1a71d.chunk.js.map": "/static/js/787.5de1a71d.chunk.js.map"
+    "main.ed9eb1ab.css.map": "/static/css/main.ed9eb1ab.css.map",
+    "main.c092cad9.js.map": "/static/js/main.c092cad9.js.map",
+    "787.9c12f0a9.chunk.js.map": "/static/js/787.9c12f0a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19ae0dfb.css",
-    "static/js/main.7f4693ca.js"
+    "static/css/main.ed9eb1ab.css",
+    "static/js/main.c092cad9.js"
   ]
 }
