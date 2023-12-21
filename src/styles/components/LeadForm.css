@@ -58,6 +58,11 @@
 }
 
 @media only screen and (min-width: 1024px) {
+
+  .LeadForm {
+    width: 25vw;
+  }
+
   .LeadForm input {
     font-size: 2.4rem;
     height: 60px;

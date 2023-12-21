@@ -3,12 +3,21 @@
   max-width: 1024px;
 }
 
+.services-giant-image {
+  display: none;
+}
+
 .contact-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  
+
 }
 
 @media only screen and (min-width: 1024px) {

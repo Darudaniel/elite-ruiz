@@ -1,11 +1,10 @@
 .EntryContainer {
   display: flex;
   justify-content: center;
-  padding: 20px;
-  padding-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   width: 100%;
   max-width: 1024px;
-  height: 100%;
 }
 
 .my-entry {
@@ -30,6 +29,11 @@
   font-style: italic;
   font-size: 1.6rem;
   margin: 15px 0;
+  max-width: 80vw;
+}
+
+.markdown-container {
+  max-width: 80vw;
 }
 
 .entry-sub-header{
@@ -51,8 +55,9 @@
 }
 
 .articles-section-title{
+  font-size: 2.6rem;
   align-self: center;
-  margin: 30px 0 15px 0;
+  margin: 30px 0;
 }
 
 @media only screen and (min-width: 767px) {
@@ -65,7 +70,7 @@
     font-size: 1.8rem;
     margin-bottom: 20px;
   }
-
+  
   .entry-sub-header {
     font-size: 2.8rem;
     line-height: 3.8rem;
@@ -83,27 +88,44 @@
     padding: 45px;
     padding-bottom: 10px;
   }
-
+  
   .my-entry {
     max-width: 70vw;
   }
-
+  
   .entry-title {
     margin-bottom: 30px;
   }
-
+  
   .entry-img {
     max-width: 65vw;
     border-radius: 15px;
   }
+
+  .entry-opening {
+    max-width: 62vw;
+  }
+  
+  .markdown-container {
+    max-width: 64vw;
+  }
+
 }
 
 @media only screen and (min-width: 1350px) {
   .my-entry {
-    max-width: 55vw;
+    max-width: 52vw;
   }
-
+  
   .entry-img {
     max-width: 50vw;
+  }
+
+  .markdown-container {
+    max-width: 45vw;
+  }
+
+  .entry-opening {
+    max-width: 51vw;
   }
 }

@@ -12,25 +12,25 @@ const About = () => {
           className="card-container" 
           title="Historia"
           img="https://images.unsplash.com/photo-1635144432103-47f3a18bae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          description="Las empresas en latinoamerica estan moviendose más rapido que nunca y me di cuenta de que les faltaba algo."
+          description="Las empresas en latinoamerica estan moviendose más rapido que nunca, y estar en linea se ha vuelto indispensable para crecer."
           buttonText='Seguir leyendo'
-          buttonUrl="blog/AUb2KOUUccH4Qgzo3dOp"
+          buttonUrl="blog/ShVhR5EMsASW0EoeW8uV"
         /> 
         <Card 
           className="card-container" 
           title="Experiencia"
           img="https://images.unsplash.com/photo-1614028674026-a65e31bfd27c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          description="Dos años de experiencia haciendo crecer la economia, potenciando negocios y construyendo marcas."
+          description="Tres años de experiencia haciendo crecer compañias, potenciando negocios y construyendo marcas."
           buttonText='Seguir leyendo'
-          buttonUrl="blog/JBr676WXu3jTrgW8wjXD"
+          buttonUrl="blog/ybRayKn5cHfyR6QFLEyn"
         /> 
         <Card 
           className="card-container" 
           title="Visión"
           img="https://images.unsplash.com/photo-1624705002806-5d72df19c3ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
-          description="Latinoamerica tiene mucho talento por explotar, solo hace falta que la informacion llegue a los oidos correctos."
+          description="Preparamos a las empresas para el futuro. Por medio de soluciones tecnologicas, pondremos a tu compañia un paso adelante del resto del mercado."
           buttonText='Seguir leyendo'
-          buttonUrl="blog/5TjhGGR43Jw1FnHEy4GC"
+          buttonUrl="blog/FJgmdjXP2CHIOp2jTDp6"
         /> 
       </CardsCarousel>
     </div>

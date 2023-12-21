@@ -4,6 +4,7 @@ import { doc, getDoc } from 'firebase/firestore';
 import { db, registerEvent } from '../firebase';
 import '../styles/containers/EntryContainer.css'
 import EntriesList from '../components/EntriesList';
+import ReactMarkdown from 'react-markdown';
 
 
 const EntryContainer = () => {
@@ -28,10 +29,9 @@ const EntryContainer = () => {
             <h1 className='entry-title'>{myEntry.title}</h1>
             <img className="entry-img" src={myEntry.img} alt="foto relacionada con el articulo" />
             <p className='entry-opening'>{myEntry.opening}</p>
-            <h2 className='entry-sub-header'>{myEntry.firstSubHeader}</h2>
-            <p className='entry-content'>{myEntry.firstContent}</p>
-            <h2 className='entry-sub-header'>{myEntry.secondSubHeader}</h2>
-            <p className='entry-content'>{myEntry.secondContent}</p>
+            <div className='markdown-container'>
+              <ReactMarkdown>{myEntry.editorContent}</ReactMarkdown>
+            </div>
             {myEntry.author ? 
                 <p className='entry-opening'>Escrito por: {myEntry.author}</p>
                :

@@ -4,22 +4,28 @@ import Hero from '../components/Hero'
 import Services from '../components/Services'
 import About from '../components/About'
 import Contact from '../components/Contact'
+// import LeadForm from '../components/LeadForm'
+import Newsletter from '../components/Newsletter'
 
 const Home = () => {
 
   return(
     <div className="Home">
-      <Hero 
-          image={heroImage} 
-          alt="Grey background" 
-          title="Mindset & Coaching"
-          subtitle="Hablame de tus ideas inspiradoras" 
-          buttonTitle="Ir al blog"
-          buttonLink="/blog"
-          buttonColor="elite"
+
+      <Hero
+        image={heroImage}
+        alt="Grey background"
+        title="Presencia en línea para tu empresa"
+        buttonTitle="Ir al blog"
+        buttonLink="/blog"
+        buttonColor="elite"
       />
+
       <section className="services-section">
         <Services />
+        {/* <div className='leads-home-container'>
+          <Newsletter />
+        </div> */}
       </section>
       <section className="about-section">
         <About />

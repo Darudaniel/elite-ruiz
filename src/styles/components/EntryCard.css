@@ -3,20 +3,22 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  margin: 15px 10px;
+  margin-bottom: 30px;
   background-color: var(--just-white);
   padding: 10px 20px;
   padding-top: 0;
   scroll-snap-align: center;
-  min-width: 190px;
+  /* min-width: 190px; */
   max-width: 300px;
-  height: 100%;
-  max-height: 800px;
+  /* height: 100%; */
+  /* max-height: 800px; */
   border: none;
   border-radius: 15px;
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
   color: black;
   text-decoration: none;
+  break-inside: avoid;
+  vertical-align: top;
 }
 
 .entry-card-image--container {
@@ -30,26 +32,33 @@
   border-radius: 20px;
 }
 
+.entry-card-description {
+  margin-bottom: 5px;
+}
+
 @media only screen and (min-width: 767px) {
   .entry-card {
-    width: 100%;
+    /* width: 100%; */
     padding: 20px;
     padding-top: 5px;
   }
-  .entry-card-content {
-    width: 250px;
-  } 
+  .entry-card-description {
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
   .entry-card {
-    width: 100%;
+    /* width: 100%; */
+    max-width: 300px;
     padding: 0 25px;
     padding-bottom: 30px;
-    margin: 35px 10px;
+    margin: 0 0 40px 0;
+    /* margin-bottom: 40px; */
+    
   }
 
   .entry-card-content {
-    width: 100%;
+    /* width: 100%; */
   } 
 }

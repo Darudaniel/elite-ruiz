@@ -11,7 +11,7 @@ const EntryCard = ({ title, img, description, entryId, buttonText, buttonUrl}) =
         <div className='entry-card-image--container'>
           <img className='entry-card-image' src={img} alt="service graphic description" />
         </div>
-        <p>{description}</p>
+        <p className='entry-card-description'>{description}</p>
       </div>
       <CardButton buttonUrl={buttonUrl} buttonText={buttonText} />
     </Link>
