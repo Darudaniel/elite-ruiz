@@ -4,8 +4,6 @@ import Hero from '../components/Hero'
 import Services from '../components/Services'
 import About from '../components/About'
 import Contact from '../components/Contact'
-// import LeadForm from '../components/LeadForm'
-import Newsletter from '../components/Newsletter'
 
 const Home = () => {
 
@@ -23,9 +21,6 @@ const Home = () => {
 
       <section className="services-section">
         <Services />
-        {/* <div className='leads-home-container'>
-          <Newsletter />
-        </div> */}
       </section>
       <section className="about-section">
         <About />

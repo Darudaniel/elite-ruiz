@@ -23,18 +23,13 @@
 
 @media only screen and (min-width: 767px) {
   .Services {
-    /* display: grid; */
-    padding: 50px;
+    padding: 50px 30px;
+    margin-left: 20px;
     margin-bottom: 30px;
-    max-width: 750px;
     columns: 2 auto;
-    column-gap: 90px;
+    column-gap: 60px;
+    break-inside: avoid;
   }
-
-  /* .service {
-    padding: 0 12px 15px;
-    min-width: 300px;
-  } */
 
   .service {
     min-width: 325px;
@@ -42,16 +37,15 @@
 
   .service-image {
     margin: 15px 0 5px;
-    max-width: 310px;
+    max-width: 300px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .Services {
-    /* grid-template-columns: repeat(2, 1fr);
-    gap: 20px 50px; */
     margin-bottom: 0;
-    padding: 75px 130px;
+    padding: 75px 100px;
+    margin-left: 30px;
     padding-bottom: 40px;
     min-width: 1000px;
     max-width: none;

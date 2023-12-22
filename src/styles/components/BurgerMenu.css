@@ -14,10 +14,6 @@
   min-height: 50px;
   font-size: 1rem;
   font-weight: bold;
-  /* box-shadow: 3px 3px 7px 0px #041d1d; */
-}
-.burger-button:defined {
-  /* box-shadow: 3px 3px 7px 0px black; */
 }
 
 .burger-button::after {

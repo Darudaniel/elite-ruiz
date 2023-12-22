@@ -37,12 +37,12 @@ const EntryContainer = () => {
                :
                 <p className='entry-opening'>Escrito por: Anónimo</p>
             }
-            <h3 className="articles-section-title">Mas artículos</h3>
-            <EntriesList />
           </div>
           : 
           console.log('Aun no ha llegado la respuesta de la api')
         }
+        <h3 className="articles-section-title">Mas artículos</h3>
+        <EntriesList />
       </div>
     )
   

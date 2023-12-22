@@ -12,11 +12,6 @@ const BurgerMenu = () => {
   const phoneIcon = <FontAwesomeIcon icon={faPhoneFlip} size="1x" />
 
   const handleClick = () => {
-    // ReactGA.event({
-    //   category: 'Menu',
-    //   action: `Burger menu`
-    // })
-    // Algo asi se veria la implementacion de google analytics.
     console.log("Proximamente aqui se puede poner un recolector de datos de google analytics.")
   }
 
@@ -24,7 +19,6 @@ const BurgerMenu = () => {
     <Dropdown className="burger-menu" onClick={handleClick}>
       <Dropdown.Toggle className="burger-button" variant="Secondary" id="dropdown-basic">
         {bars}
-        {/* <Icon icon="bi:justify" style={{ fontSize: '4rem' }}/> */}
       </Dropdown.Toggle>
       <Dropdown.Menu>
         <Dropdown.Item><Link to="/home" className="item-menu-button">{homeIcon} Inicio</Link></Dropdown.Item>

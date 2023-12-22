@@ -32,7 +32,6 @@
   .Card {
     min-width: 250px;
     max-width: 500px;
-    /* width: 300px; */
     padding: 20px;
     padding-top: 5px;
   }
@@ -44,7 +43,6 @@
 @media only screen and (min-width: 1024px) {
   .Card {
     max-width: 270px;
-    /* width: 400px; */
     padding: 0 25px;
     padding-bottom: 30px;
     margin: 0px 15px 50px;

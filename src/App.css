@@ -22,7 +22,6 @@ html {
 }
 
 body {
-  /* font-family: 'Montserrat', sans-serif; */
   font-family: 'DM Sans', sans-serif;
   display: flex;
   flex-direction: column;

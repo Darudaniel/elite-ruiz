@@ -19,7 +19,7 @@ const Hero = ({image, alt, title, subtitle, buttonTitle, buttonLink, buttonColor
 
       // Update the state with the next word
       setCurrentWord(words[nextIndex]);
-    }, 2000); // Change the word every 2 seconds (you can adjust the interval)
+    }, 2000);
 
     // Clear the interval when the component unmounts
     return () => clearInterval(intervalId);

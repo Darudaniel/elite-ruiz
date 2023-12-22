@@ -24,6 +24,7 @@
 
 .social-networks {
   min-width: 300px;
+  margin-top: 20px;
   padding:15px;
   display: flex;
   justify-content: space-between;
@@ -39,11 +40,17 @@
     padding: 40px;
   }
   .network-icon {
-    font-size: 2rem;
+    font-size: 1.4rem;
     margin: 20px;
   }
   .footer-text {
     font-size: 3.2rem;
     max-width: 900px;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .footer-text {
+    margin: 20px;
   }
 }
