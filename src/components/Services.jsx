@@ -52,7 +52,7 @@ const Services = () => {
             <Fade duration={duration} >
               <div className='service'>
                 <h3 className='service-name' >{serviceName}</h3>
-                <p>{serviceDescription}</p>
+                <p className='service-description'>{serviceDescription}</p>
                 <div className='service-image--container'>
                   <img className='service-image' src={serviceImage} alt={serviceImageDescription} />
                 </div>
