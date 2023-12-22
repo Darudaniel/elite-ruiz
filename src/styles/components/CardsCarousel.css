@@ -15,7 +15,7 @@
 @media only screen and (min-width: 767px) {
   .cards-carousel {
     display: flex;
-    padding: 30px 50px;
+    padding: 30px 12px;
     padding-top: 10px;
     justify-items: center;
   }

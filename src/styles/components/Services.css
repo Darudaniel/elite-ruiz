@@ -28,7 +28,10 @@
     margin-bottom: 30px;
     columns: 2 auto;
     column-gap: 60px;
+    break-after: avoid;
+    break-before: avoid;
     break-inside: avoid;
+    vertical-align: top;
   }
 
   .service {
