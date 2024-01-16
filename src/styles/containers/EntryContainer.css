@@ -29,12 +29,16 @@
   color: var(--light-font);
   font-style: italic;
   font-size: 1.6rem;
-  margin: 15px 0;
+  margin: 15px 0 0 0;
   max-width: 80vw;
 }
 
 .markdown-container {
   max-width: 80vw;
+}
+
+.markdown-container p {
+  margin: 17px 0;
 }
 
 .entry-sub-header{
