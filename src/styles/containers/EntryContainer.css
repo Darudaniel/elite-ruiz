@@ -41,6 +41,10 @@
   margin: 17px 0;
 }
 
+strong {
+  font-size: 2rem;
+}
+
 .entry-sub-header{
   max-width: 80vw;
   margin-bottom: 20px;
