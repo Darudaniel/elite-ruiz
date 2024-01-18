@@ -5,7 +5,7 @@ import { db, registerEvent } from '../firebase';
 import '../styles/containers/EntryContainer.css'
 import EntriesList from '../components/EntriesList';
 import ReactMarkdown from 'react-markdown';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const EntryContainer = () => {
   const { entryId } = useParams()
@@ -28,13 +28,19 @@ const EntryContainer = () => {
         <div className='EntryContainer'>
           {myEntry.title ?
             <>
-              <Helmet>
+            <Helmet>
+              <meta name="description" content={"hola mundo"} />
+              <meta property="og:title" content={"hola mundo"} />
+              <meta property="og:description" content={"hola mundo"} />
+              <meta property="og:image" content={myEntry.img} />
+            </Helmet>
+              {/* <Helmet>
                 <title>{myEntry.title}</title>
                 <meta name="description" content={myEntry.opening} />
                 <meta property="og:title" content={myEntry.title} />
                 <meta property="og:description" content={myEntry.opening} />
                 <meta property="og:image" content={myEntry.img} />
-              </Helmet>
+              </Helmet> */}
               <div className='my-entry'>
                 <h1 className='entry-title'>{myEntry.title}</h1>
                 <img className="entry-img" src={myEntry.img} alt="foto relacionada con el articulo" />
