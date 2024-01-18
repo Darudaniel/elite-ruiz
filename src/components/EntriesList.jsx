@@ -1,7 +1,7 @@
 import '../styles/components/EntriesList.css'
 import { useEffect } from 'react'
 import EntryCard from './EntryCard'
-import { collection, getDocs } from 'firebase/firestore'
+import { collection, getDocs, orderBy, query } from 'firebase/firestore'
 import { useState } from 'react'
 import { db } from '../firebase'
 
@@ -12,7 +12,9 @@ const EntriesList = () => {
   useEffect(() => {
     const entriesCollectionRef = collection(db, "entries")
     const getEntries = async () => {
-      const data = await getDocs(entriesCollectionRef)
+      const q = query(entriesCollectionRef, orderBy("createdAt", "desc"));
+      const data = await getDocs(q)
+
       setEntries(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })))
     }
 
