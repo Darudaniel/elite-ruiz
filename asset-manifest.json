@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.acbff2fb.css",
-    "main.js": "/static/js/main.e8c0a01f.js",
+    "main.js": "/static/js/main.4917bfd7.js",
     "static/js/787.9c12f0a9.chunk.js": "/static/js/787.9c12f0a9.chunk.js",
     "static/media/HeaderHomeImage.jpg": "/static/media/HeaderHomeImage.3c24f51ec1d324b0fd52.jpg",
     "static/media/Profile2022comprimida.png": "/static/media/Profile2022comprimida.92ab91c48981fd7a4772.png",
     "static/media/EliteRuizBanner.png": "/static/media/EliteRuizBanner.1b8b446e9f79dfacd95a.png",
     "index.html": "/index.html",
     "main.acbff2fb.css.map": "/static/css/main.acbff2fb.css.map",
-    "main.e8c0a01f.js.map": "/static/js/main.e8c0a01f.js.map",
+    "main.4917bfd7.js.map": "/static/js/main.4917bfd7.js.map",
     "787.9c12f0a9.chunk.js.map": "/static/js/787.9c12f0a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acbff2fb.css",
-    "static/js/main.e8c0a01f.js"
+    "static/js/main.4917bfd7.js"
   ]
 }
