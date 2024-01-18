@@ -28,19 +28,13 @@ const EntryContainer = () => {
         <div className='EntryContainer'>
           {myEntry.title ?
             <>
-            <Helmet>
-              <meta name="description" content={"hola mundo"} />
-              <meta property="og:title" content={"hola mundo"} />
-              <meta property="og:description" content={"hola mundo"} />
-              <meta property="og:image" content={myEntry.img} />
-            </Helmet>
-              {/* <Helmet>
+              <Helmet>
                 <title>{myEntry.title}</title>
                 <meta name="description" content={myEntry.opening} />
                 <meta property="og:title" content={myEntry.title} />
                 <meta property="og:description" content={myEntry.opening} />
                 <meta property="og:image" content={myEntry.img} />
-              </Helmet> */}
+              </Helmet>
               <div className='my-entry'>
                 <h1 className='entry-title'>{myEntry.title}</h1>
                 <img className="entry-img" src={myEntry.img} alt="foto relacionada con el articulo" />
