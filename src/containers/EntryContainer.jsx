@@ -30,10 +30,16 @@ const EntryContainer = () => {
             <>
               <Helmet>
                 <title>{myEntry.title}</title>
-                <meta name="description" content={myEntry.opening} />
                 <meta property="og:title" content={myEntry.title} />
+                <meta name="description" content={myEntry.opening} />
                 <meta property="og:description" content={myEntry.opening} />
+                {/* <meta property="og:image" content={myEntry.img} /> */}
+
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={`https://eliteruiz.com/blog/${entryId}`} />
                 <meta property="og:image" content={myEntry.img} />
+                {/* <title>{myEntry.title}</title> */}
+                {/* <meta property="og:title" content={myEntry.title} /> */}
               </Helmet>
               <div className='my-entry'>
                 <h1 className='entry-title'>{myEntry.title}</h1>
