@@ -36,7 +36,7 @@ const EntryContainer = () => {
                 {/* <meta property="og:image" content={myEntry.img} /> */}
 
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content={`https://eliteruiz.com/blog/${entryId}`} />
+                <meta property="og:url" content="https://eliteruiz.com" />
                 <meta property="og:image" content={myEntry.img} />
                 {/* <title>{myEntry.title}</title> */}
                 {/* <meta property="og:title" content={myEntry.title} /> */}
